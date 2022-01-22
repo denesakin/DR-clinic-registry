@@ -1,0 +1,25 @@
+{
+  "name": "clinic-registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "mqtt": "^4.2.8",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "eslint": "^8.4.1",
+    "nodemon": "^2.0.15"
+  }
+}
